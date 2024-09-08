@@ -1,0 +1,119 @@
+.main-container-weather-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(44, 43, 43);
+    color: #ffffff;
+    padding: 25px;
+    
+}
+
+
+
+.left-sontainer-display {
+    width: 45%;
+}
+
+@media screen and (max-width:767px) {
+    .main-container-weather-page {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-sontainer-display {
+        width: 90%;
+    }
+    
+}
+
+.sun-header {
+    display: flex;
+    align-items: center;
+    width:140px;
+    height: 100px;
+    justify-content: space-around;
+
+}
+.time-dispaly {
+    color: rgb(241, 131, 47);
+    font-size: 14px;
+}
+
+.feels-like-design {
+    font-weight: bold;
+}
+
+.details-about-climate-container {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+@media screen and (max-width:767px) {
+    .details-about-climate-container {
+        width:100%
+    }
+    
+}
+.left-details {
+    margin-right: 20px;
+    border-left: 1px solid orange;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.bar-visibility-container {
+    font-size: 14px;
+}
+
+
+.wind-speed {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-temperaure {
+    font-size: 35px;
+}
+
+.symbol-size {
+    color: #b8b7b7;
+    font-size: 25px;
+}
+
+.sun-timing-rise {
+     display: flex;
+     width: 140px;
+     justify-content: space-between;
+     color: orange;
+     line-height: 0.5;
+     margin-bottom: 2px;
+     height: 30px;
+}
+
+
+.sun-set-timing {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    color: rgb(214, 122, 16);
+    margin-bottom: -5px;
+}
+
+
+.max-min-temperature-container {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    width: 230px;
+    justify-content: space-between;
+    
+}

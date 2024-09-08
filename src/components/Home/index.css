@@ -1,0 +1,137 @@
+ .main-home-container {
+    min-height: 100vh;
+    background-color: #161625;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+
+  .home-search-input {
+    display: flex;
+   
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+ .search-input-container {
+    background-color: #2f2f43;
+   
+    height: 72px;
+    margin-top: 144px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
+  .search-input {
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    height: 72px;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+  }
+
+  @media screen and (max-width:767px){
+    .search-input {
+      height: 40px;
+      
+    }
+    .search-input-container {
+      height: 40px;
+    }
+  }
+  
+
+  .state-tables-container { 
+    width: 80%;
+    background: #1e1e30;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    border: 1px solid #475569;
+  
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    margin-top: 40px;
+    align-self: center;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 1146px) {
+    .state-tables-container {
+      overflow-x: auto;
+      align-self: center;
+      width: 100%;
+  
+      top: 464px;
+      left: 24px;
+      border-radius: 12px;
+    }
+  }
+
+  .table-headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    color: #ffffff;
+    width: 95%;
+    
+  }
+
+  .each-column {
+    width:25%;
+  }
+
+  
+
+ .thead-text {
+    color: #ffffff;
+    width: 300px;
+
+
+
+ }
+ .buttons-container-city-name {
+  display: flex;
+  width: 25%;
+
+ }
+
+ .suggestions-list-contsiner {
+  padding-left: 0px;
+ }
+
+ @media screen and (max-width:767px) {
+  .buttons-container-city-name {
+    font-size: 12px;
+    width: 110px;
+  }
+  
+ }
+
+ .button-style {
+  background-color: transparent;
+  border: none;
+ }
+
+ .width-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+  .unordered-list {
+    padding-left: 0px;
+  }
+
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

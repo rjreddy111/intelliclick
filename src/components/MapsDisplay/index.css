@@ -1,0 +1,13 @@
+.maps-conatiner { 
+    width: 60%;
+    height: 400px;
+}
+
+
+@media screen  and (max-width:767px){
+    .maps-conatiner {
+        width: 80%;
+        height: 200px;
+    }
+    
+}

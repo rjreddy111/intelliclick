@@ -1,0 +1,29 @@
+.list-style-type-suggestions {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.suggestions-list {
+    display: flex;
+    width: 824px;
+    height: 64px;
+    top: 284px;
+    left: 308px;
+    border: 1px;
+    background-color: #161625;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #64748b;
+    color: #64748b;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+@media screen and (max-width:767px) {
+    .suggestions-list {
+        width: 310px;
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+    
+}

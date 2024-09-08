@@ -1,0 +1,36 @@
+.state-list-container {
+  width: 95%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  }
+
+ 
+
+  .staes-column {
+    width: 35%;
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+   
+  }
+
+  .each-row {
+    width: 100%;
+  }
+
+  @media screen and (max-width:767px) {
+    
+    .each-row {
+      font-size: 12px;
+      
+    }
+  }
+
+  .link-style {
+    color: #ffffff;
+    text-decoration: none;
+  }
+ 
